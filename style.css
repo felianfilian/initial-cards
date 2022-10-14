@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
 
 * {
+  box-sizing: border-box;
 }
 
 body {
@@ -14,5 +15,13 @@ body {
   overflow: hidden;
 }
 
+.container {
+  display: flex;
+  width: 90vw;
+}
+
 .conatiner_active {
+  color: rgb(11, 25, 116);
+  height: 90vh;
+  margin: 0 10px;
 }
