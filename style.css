@@ -1,2 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+
+* {
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
 .conatiner_active {
 }
