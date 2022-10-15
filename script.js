@@ -1,4 +1,5 @@
 const panels = document.querySelectorAll(".panel");
+var i = 0;
 
 panels.forEach((panel) => {
   panel.addEventListener("click", () => {
@@ -12,3 +13,14 @@ function removeActive() {
     panel.classList.remove("active");
   });
 }
+
+// diashow
+
+setInterval(() => {
+  i++;
+  if (i >= panels.length) {
+    i = 0;
+  }
+  removeActive();
+  panels[i].classList.add("active");
+}, 2000);
